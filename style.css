@@ -1,0 +1,381 @@
+* {
+  box-sizing: border-box; /* Browser accounts for any border & padding in the values for an element's width and height. */
+}
+
+/* Styling for the body part */
+body {
+  font-family:  Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; /* font-styling */
+  margin: 0; /* Setting the margin in all four sides */
+}
+
+/* Styling for header class */
+.header {
+  padding: 10px; /* Setting space between content(element) and border */
+  text-align: center; /* Center alignment of the text */
+  color: white; 
+  background-image: url("banner.png"); /* Inserting image into webpage */ 
+  background-position: center; /* Centering the image */
+  background-size:cover; /* Maintains image aspect ratio by covering entire width and height of its container */ 
+  background-repeat: no-repeat; /* The background image will not be repeated */
+  height: 100%;
+  position: relative; /* Adjusts elements without changing the layout*/
+}
+
+
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 90px; /* Font size 90 */
+  letter-spacing: 25px; /* Spacing between each character */ 
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  }
+
+.header p {
+  font-size: 45px;
+  letter-spacing: 15px; /* Spacing between text characters */
+  font-family: Papyrus,fantasy;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow:hidden; /* Clipping the content, with no scrollbars */
+  background-color: #333; /* HEX Color Values */ 
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float:right; /* Element floating on the right side of containing block */
+  display:block; /* The element is displayed as a block */
+  color: white;
+  text-align: center; /* aligning the text center */
+  padding: 14px 20px;
+  text-decoration: none; /* Text decoration (none) will not underline the text */
+  font-family: "Architects Daughter";
+  font-size: 20px;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Element must flow on right side of its containing block */
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd; /* very light shade of gray colour */
+  color:black;
+}
+
+
+/* Column container */
+.row {  
+  display: -ms-flexbox;
+  display:flex; /* The element behaves like a block element and lays out the contents as per the flexbox model*/
+  -ms-flex-wrap:wrap; 
+  flex-wrap: wrap; /* The flex items breaks into multiple lines */
+}
+
+
+
+/* Create two unequal columns that are next to each other(left column) */
+.side {
+  flex: 30%; /* Dividing the screen 30% out of 100% */
+  background-color: #E3DEDE;
+  padding: 20px;
+  text-align: center;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.side h2{   /* Styling for heading 2 */
+	font-size: 32px;
+	text-decoration: underline; /* Underline text */
+}
+
+
+/* Styling for Main column */
+.main {   
+  flex: 70%; /* Dividing the screen 70% out of 100% */
+  background-color: white;
+  padding: 2px;
+  text-align: center;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat; /* Background will not be repeated */ 
+}
+
+.main p {
+	font-family: "Caveat";
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+.main h1 {
+	font-family: "Kaushan Script";
+	font-size: 50px;
+	letter-spacing: 35px;
+}
+
+.main h3 {
+	font-family: "Caveat";
+	font-size: 40px;
+	letter-spacing: 18px;
+}
+
+
+
+
+.aboutimg {
+  background-image: url("999.png");
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+	text-align:center;
+}
+
+.aboutimg .em {
+	font-style: italic;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center; /* The justify-content states how the browser shares space between items in their containers */
+  align-items: center;
+}
+
+.socialmedia i {
+	width: 80px;
+	height: 100%;
+	position:relative;
+	align-content: center;
+}
+
+.socialmedia i:hover {
+  margin-top: -3px; /* Setting margin space on top of element */
+  text-shadow: 5px 14px 10px rgba(0, 5, 0, 10); /* Shadow effects when hover */
+}
+
+
+
+
+.staff li{
+font-size: 18px;
+font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.staff .founder{
+  background-image: url("founder.png");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.staff .cofounder{
+  background-image: url("cofounder.png");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.staff .manager{
+  background-image: url("manager.png");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.staff .chef{
+  background-image: url("chef.png");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.staff .supervisor{
+  background-image: url("supervisor.png");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.portraitimg {
+  background-image: url("5.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+
+
+.portraitimg1 {
+  background-image: url("portraitimage1.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.img1 {
+  background-image: url("4.jpg");
+  width: 100%;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.img2 {
+  background-image: url("2.jpg");
+  width: 100%;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.img3 {
+  background-image: url("menucollage.jpg");
+  width: 100%;
+  padding: 20px;
+  background-position:center;
+  background-size:contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+
+
+
+/* Footer */
+.footer {
+  padding: 3px;
+  text-align: center;
+  background: #ddd;
+  letter-spacing: 1px;
+}
+
+.footer h3, h4{
+	 font-family: "Kaushan Script";
+	 font-size: 22px;
+}
+
+.footer marquee{
+	 font-family: "Kaushan Script";
+	 font-size: 22px;
+	 
+}
+
+/* Styling for table */
+table {
+  border-collapse: collapse; /* Adjacent cells share borders*/
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {   /* Hover animation when mouse over content of table */
+	background-color:#e5c0c0;
+}
+
+
+
+/* Caveat Font Codes */
+/* cyrillic */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caveat Regular'), local('Caveat-Regular'), url(https://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7YjYYmg8.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caveat Regular'), local('Caveat-Regular'), url(https://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7aDYYmg8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caveat Regular'), local('Caveat-Regular'), url(https://fonts.gstatic.com/s/caveat/v5/Wnz6HAc5bAfYB2Q7ZjYY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+/* Architects Daughter  Font Codes */
+/* latin */
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url(https://fonts.gstatic.com/s/architectsdaughter/v9/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+
+/* Kaushal Script Font Codes */
+/* latin-ext */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v7/vm8vdRfvXFLG3OLnsO15WYS5DG72wNJHMw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v7/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) { 
+	/* @media rule is used in CSS to apply different styles for different media types or devices */
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none; /* No float */
+    width: 100%;
+  }
+}

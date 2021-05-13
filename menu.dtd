@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+
+<!ELEMENT restaurant_menu (main_course|desserts|salads|drinks)*>
+
+<!ELEMENT main_course (item)*>
+
+<!ELEMENT item (main_course_price|main_course_name|main_course_description|dessert_name|dessert_price|dessert_description|drinks_description|salads_name|salads_price|salads_description|drinks_name|drinks_price)*>
+
+<!ELEMENT main_course_name (#PCDATA)>
+
+<!ELEMENT main_course_price (#PCDATA)>
+
+<!ELEMENT main_course_description (#PCDATA)>
+
+<!ELEMENT desserts (item)*>
+
+<!ELEMENT dessert_name (#PCDATA)>
+
+<!ELEMENT dessert_price (#PCDATA)>
+
+<!ELEMENT dessert_description (#PCDATA)>
+
+<!ELEMENT salads (item)*>
+
+<!ELEMENT salads_name (#PCDATA)>
+
+<!ELEMENT salads_price (#PCDATA)>
+
+<!ELEMENT salads_description (#PCDATA)>
+
+<!ELEMENT drinks (item)*>
+
+<!ELEMENT drinks_name (#PCDATA)>
+
+<!ELEMENT drinks_price (#PCDATA)>
+
+<!ELEMENT drinks_description (#PCDATA)>

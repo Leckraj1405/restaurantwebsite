@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+<!DOCTYPE restaurant_menu SYSTEM "menu.dtd">
+
+
+<restaurant_menu> 
+  <main_course>
+   <item> 
+       <main_course_name>Chicken Burger</main_course_name> 
+       <main_course_price>$20.00</main_course_price> 
+       <main_course_description>Delicious chicken burger, made with fresh chicken, and fresh ingredients to spice up your appetite.</main_course_description> 
+   </item>
+	  
+   <item> 
+       <main_course_name>Fish and Chips</main_course_name> 
+       <main_course_price>$21.00</main_course_price> 
+       <main_course_description>Light meal for fish lovers, where fish is dipped in a light secret batter, accompanied with crispy potato chips.</main_course_description> 
+    </item>
+	  
+   <item> 
+       <main_course_name>Pasta Carbonara</main_course_name> 
+       <main_course_price>$20.00</main_course_price> 
+       <main_course_description>Italian pasta dish from Rome made with egg, hard cheese, and pepper, including your choice of non-veg.</main_course_description> 
+    </item> 
+	  
+   <item> 
+       <main_course_name>Pizza</main_course_name> 
+       <main_course_price>$25.00</main_course_price> 
+       <main_course_description>Classic red sauce pizza topped cheese, fresh mushrooms, onions, black olives, yellow and green pepper.</main_course_description> 
+     </item> 
+	  
+   <item> 
+       <main_course_name>Roasted Chicken</main_course_name> 
+       <main_course_price>$35.00</main_course_price> 
+       <main_course_description> Chicken roasted with lemon and garlic, crisp, flavorful, tender and juicy, with savory pan juice.</main_course_description> 
+     </item> 
+	  
+   <item> 
+       <main_course_name>Sesame Chicken</main_course_name> 
+       <main_course_price>$25.00</main_course_price> 
+       <main_course_description>Boneless fried chicken sauteed with special savory sauce and topped with sesame seeds.</main_course_description> 
+      </item> 
+	  
+	  <item>
+	  	<main_course_name>Poulet Cordon Bleu</main_course_name>
+	  	<main_course_price>$13.95</main_course_price>
+		<main_course_description>Paupiette of chicken, blue cheese and ham, rosemary salt  and beans</main_course_description>
+	  </item>
+   
+	  
+	  <item>
+	  	<main_course_name>Confit de Canard</main_course_name>
+	  	<main_course_price>$12.15</main_course_price>
+		<main_course_description>Duck confit, white bean and ham cassoulet, wilted spinach</main_course_description>
+	  </item>
+   
+  </main_course>
+
+
+
+
+
+<desserts>
+   <item> 
+       <dessert_name>Chocolate Cake</dessert_name> 
+       <dessert_price>$18.00</dessert_price> 
+       <dessert_description>23-Layer Chocolate Cake, our signature dessert.</dessert_description> 
+   </item> 
+	
+   <item> 
+       <dessert_name>Ice-Cream</dessert_name> 
+       <dessert_price>$9.00</dessert_price> 
+       <dessert_description>Assorment of flavours to choose from, the floor is yours!</dessert_description> 
+    </item>
+	
+   <item> 
+       <dessert_name>Macaron</dessert_name> 
+       <dessert_price>$15.00</dessert_price> 
+       <dessert_description> Hand-crafted sweet meringue-based confection made with finely ground almonds and filled with a ganache, and buttercream.</dessert_description> 
+    </item> 
+	
+   <item> 
+       <dessert_name>Peanut Cheesecake</dessert_name> 
+       <dessert_price>$15.00</dessert_price> 
+       <dessert_description>Creamy cheesecake swirled with caramel, peanut butter, butterfingers and peanut butter cups.</dessert_description> 
+     </item>    
+	
+	<item> 
+       <dessert_name>Tarte Tatin</dessert_name> 
+       <dessert_price>$5.95</dessert_price> 
+       <dessert_description>Caramelised apple tart, vanilla ice cream.</dessert_description> 
+     </item> 
+	
+	<item> 
+       <dessert_name>Creme Brulee</dessert_name> 
+       <dessert_price>$5.25</dessert_price> 
+       <dessert_description>Rich vanilla custard with a caramelised sugar crust.</dessert_description> 
+     </item>
+	
+	<item> 
+       <dessert_name>Assiette de Fromage</dessert_name> 
+       <dessert_price>$6.95</dessert_price> 
+       <dessert_description>French cheese selection, chutney and biscuits.</dessert_description> 
+     </item>
+  </desserts>
+
+
+
+  <salads>
+   <item> 
+       <salads_name>Avocado Salad</salads_name> 
+       <salads_price>$15.00</salads_price> 
+       <salads_description>Fresh tomatoes mixed with mashed potatoes inside an avocado half, blended to be mouth-watering.</salads_description> 
+   </item> 
+	  
+   <item> 
+       <salads_name>Caesar Salad with Potatoes</salads_name> 
+       <salads_price>$18.00</salads_price> 
+       <salads_description>The normal Caesar Salad, with a twist of Wok N' Roll, and potatoes.</salads_description> 
+    </item> 
+	  
+   <item> 
+       <salads_name>Egg Spinach Salad</salads_name> 
+       <salads_price>$15.00</salads_price> 
+       <salads_description>Boiled eggs, on spinach leaves, good salad on the go.</salads_description> 
+    </item> 
+	  
+   <item> 
+       <salads_name>Classic Salad with Lettuce, Tomatoes and Carrots</salads_name> 
+       <salads_price>$15.00</salads_price> 
+       <salads_description>The forever classic salad, prepared with fresh ingredients, just for you.</salads_description> 
+     </item> 
+	  
+	   <item> 
+       <salads_name>Harvest Chicken Salad</salads_name> 
+       <salads_price>$15.00</salads_price> 
+       <salads_description>Lettuce blend, diced green apples, cheese, brown walnuts, and chicken breast </salads_description> 
+    </item> 
+	  
+	  <item> 
+       <salads_name>BBQ Ranch</salads_name> 
+       <salads_price>$8.25</salads_price> 
+       <salads_description>Organic Mixed Greens, Romaine, Corn, Organic Black Beans, Pico de Gallo, Avocados, Tortilla Strips and Pepper Jack Cheese</salads_description> 
+    </item> 
+  </salads>
+
+
+
+    <drinks>
+   <item> 
+       <drinks_name>Camden Hills Lager</drinks_name> 
+       <drinks_price>$20.00</drinks_price> 
+       <drinks_description>Served from a pressurised keg, very light, and refreshing!</drinks_description> 
+   </item> 
+		
+   <item> 
+       <drinks_name>Cappuccino Coffee</drinks_name> 
+       <drinks_price>$10.00</drinks_price> 
+       <drinks_description>Fresh coffee produced in our restaurant, for you to grab and go.</drinks_description> 
+    </item> 
+		
+   <item> 
+       <drinks_name>Coke</drinks_name> 
+       <drinks_price>$10.00</drinks_price> 
+       <drinks_description>The classic Coca-Cola, always famous.</drinks_description> 
+    </item> 
+		
+   <item> 
+       <drinks_name>Fruit Juice</drinks_name> 
+       <drinks_price>$10.00</drinks_price> 
+       <drinks_description>Fresh fruit juice, straight from our garden.</drinks_description> 
+     </item> 
+		
+     <item> 
+       <drinks_name>Mineral Water</drinks_name> 
+       <drinks_price>$8.00</drinks_price> 
+       <drinks_description>Mineral water, distilled.</drinks_description> 
+     </item>
+		
+	<item> 
+       <drinks_name>Malbec Montes Classic</drinks_name> 
+       <drinks_price>$36.95</drinks_price> 
+       <drinks_description>Colchagua Valley, Mendoza, 2012</drinks_description> 
+     </item>
+		
+		<item> 
+       <drinks_name>Alpha Zeta</drinks_name> 
+       <drinks_price>$36.95</drinks_price> 
+       <drinks_description>Chardonnay, Veneto, 2011</drinks_description> 
+     </item>
+  </drinks>
+
+</restaurant_menu>
